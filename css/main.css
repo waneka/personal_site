@@ -1,0 +1,847 @@
+/* ==================================================================
+   HTML5 Boilerplate styles -
+   h5bp.com (generated via initializr.com)
+   ================================================================== */
+
+   html,
+   button,
+   input,
+   select,
+   textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/*
+font-family: 'Poiret One', cursive;
+font-family: 'Grand Hotel', cursive;
+font-family: 15px/26px 'Open Sans', sans-serif;
+*/
+
+
+/* ===== Initializr Styles ==========================================
+   Author: Jonathan Verrecchia
+   - verekia.com/initializr/responsive-template
+   ================================================================== */
+
+   body {
+    font: 15px/26px 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+    =================== */
+
+    .header-container {
+        /*border-bottom: 10px solid #34495e;*/
+    }
+
+    .footer-container,
+    .main aside {
+        border-top: 20px solid #34495e;
+    }
+
+    .header-container,
+    .footer-container {
+        background: white;
+    }
+
+    .main aside {
+        background: #c0392b;
+    }
+
+    .main aside ul {
+        list-style-type: none;
+    }
+
+    .title {
+        font-family: 'Poiret One', cursive;
+        margin-top: 25px;
+        color: #34495e;
+    }
+
+/* ==============
+    MOBILE: Menu
+    ============== */
+
+    #nav-scroller {
+        display: none;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+        padding: 15px 0;
+
+        text-align: center;
+        text-decoration: none;
+        /*font-weight: bold;*/
+
+        color: #c0392b;
+        background: white;
+        border: 1px solid #c0392b;
+    }
+
+    header a {
+        text-decoration: none;
+    }
+
+    nav a:hover,
+    nav a:visited {
+        color: #c0392b;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+/* ==============
+    MOBILE: Main
+    ============== */
+
+    .main {
+        padding: 20px 0;
+    }
+
+    .main article h1 {
+        font-size: 2em;
+    }
+
+    .main aside {
+        color: black;
+        padding: 0px 5% 10px;
+    }
+
+    .footer-container footer {
+        color: white;
+        padding: 20px 0;
+    }
+
+    img {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .line-circle {
+        display: none;
+    }
+
+    .mobile-break {
+        color: white;
+        text-align: center;
+        background-color: #34495e;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .hello {
+        font-family: 'Poiret One', cursive;
+        font-size: 15vw;
+        display: block;
+    }
+
+    aside a {
+        color: white;
+        font-size: 1.5em;
+    }
+    .contact-info {
+        list-style-type: circle;
+    }
+
+    .contact-info a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .contact-info li {
+        font-size: 1.em;
+    }
+
+    .social-icon:hover {
+        color: #2980b9;
+    }
+
+    #contact-header {
+        font-size: 10vw;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer a {
+        color: #c0392b;
+        text-decoration: none;
+        margin: 0px 15px;
+        font-size: 2em;
+    }
+
+/* ===============
+    ALL: IE Fixes
+    =============== */
+
+    .ie7 .title {
+        padding-top: 20px;
+    }
+
+/* ==================================================================
+   Author's custom styles
+   ================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================================
+   Media Queries
+   ================================================================== */
+
+   @media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+    ==================== */
+
+    nav a {
+        float: left;
+        width: 18%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ====================
+    INTERMEDIATE: Main
+    ==================== */
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    #contact-header {
+        font-size: 4em;
+    }
+
+    #intro {
+        padding-bottom: 60px;
+    }
+
+    #about {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #portfolio {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #contact {
+        padding-top: 50px;
+    }
+
+    .splitter {
+        height: 100px;
+        display: block;
+        text-align: center;
+    }
+
+    .line-circle {
+        position:relative;
+        height:100px;
+        width:100px;
+        font-size: 4.5em;
+        font-family: 'Poiret One', cursive;
+        color: #ecf0f1;
+        line-height: 76px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .circles {
+        background: none repeat scroll 0 0 #2c3e50;
+        border-radius: 50% 50% 50% 50%;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+    }
+
+    .circles > span {
+        background: none repeat scroll 0 0 #c0392b;
+        border-radius: 50% 50% 50% 50%;
+        content: "";
+        height: 90%;
+        width: 90%;
+        left: 50%;
+        top: 50%;
+        margin-left: -45%;
+        margin-top: -45%;
+        position: absolute;
+    }
+
+    .circles > span > span {
+        background: none repeat scroll 0 0 #2c3e50;
+        border-radius: 50% 50% 50% 50%;
+        content: "";
+        height: 90%;
+        width: 90%;
+        left: 50%;
+        top: 50%;
+        margin-left: -45%;
+        margin-top: -45%;
+        position: absolute;
+    }
+
+    .line-left {
+        height: 4px;
+        background-color: #34495e;
+        width: 37%;
+        float: left;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+
+    .line-right {
+        height: 4px;
+        background-color: #34495e;
+        width: 37%;
+        float: right;
+        margin-top: -50px;
+        margin-right: 25px;
+    }
+
+    .circle-link {
+        text-decoration: none;
+    }
+
+    .mobile-break {
+        display: none;
+    }
+
+    img {
+        width: 480px;
+        margin: 5px 10px;
+    }
+
+    #top-link {
+        font-size: 1.25em;
+        margin-bottom: 10px;
+    }
+
+    #top-link:hover {
+        text-decoration: underline;
+    }
+
+    footer a {
+        margin: 0px 20px;
+    }
+
+    .splitter-parallax {
+        background: url(../img/grey-and-white-chevron.png) 50% 0 repeat fixed;
+        min-height: 120px;
+        height: 120px;
+        border-radius: 90px;
+        margin: 0 auto;
+        padding-top: 28px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        max-width: 1026px;
+        position: relative;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+    ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+    ==================== */
+
+    /*.header-container,*/
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+        -moz-box-shadow: 0 5px 10px #aaa;
+        box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+    ============ */
+
+    nav a {
+        border: none;
+        font-weight: bold;
+    }
+
+    .headline {
+        font-size: 20px;
+    }
+
+    .header-container {
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+        margin-right: 0;
+    }
+
+    header {
+        height: 80px;
+    }
+
+
+
+/* ============
+    WIDE: Main
+    ============ */
+
+    .main {
+        padding: 0;
+    }
+
+    .splitter {
+        height: 120px;
+        display: block;
+        text-align: center;
+    }
+
+    .line-circle {
+        position:relative;
+        height:120px;
+        width:120px;
+        font-size: 5em;
+        font-family: 'Poiret One', cursive;
+        color: #ecf0f1;
+        line-height: 90px;
+        margin: 0 auto;
+    }
+
+    .circles {
+        background: none repeat scroll 0 0 #2c3e50;
+        border-radius: 50% 50% 50% 50%;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .circles > span {
+        background: none repeat scroll 0 0 #c0392b;
+        border-radius: 50% 50% 50% 50%;
+        content: "";
+        height: 90%;
+        left: 50%;
+        margin-left: -45%;
+        margin-top: -45%;
+        position: absolute;
+        top: 50%;
+        width: 90%;
+    }
+
+    .circles > span > span {
+        background: none repeat scroll 0 0 #2c3e50;
+        border-radius: 50% 50% 50% 50%;
+        content: "";
+        height: 90%;
+        left: 50%;
+        margin-left: -45%;
+        margin-top: -45%;
+        position: absolute;
+        top: 50%;
+        width: 90%;
+    }
+
+    .splitter-parallax {
+        min-height: 140px;
+        height: 140px;
+        padding-top: 30px;
+     }
+
+    .main-container {
+        position: relative;
+    }
+
+    #intro {
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+
+    #about {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    #portfolio {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    #contact {
+        padding-top: 120px;
+    }
+
+    .hello {
+        line-height: 60px;
+    }
+
+    .footer-container {
+        margin-top: 60px;
+    }
+
+    .images {
+        text-align: center;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+    }
+
+    .line-left {
+        width: 39%;
+        margin-top: 60px;
+        margin-left: 25px;
+    }
+
+    .line-right {
+        width: 39%;
+        margin-top: -60px;
+        margin-right: 25px;
+    }
+
+    .title {
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+
+}
+
+/* ============
+    WIDE: Parallax
+    ============ */
+
+
+
+    @media only screen and (min-width: 1140px) {
+
+    /* ===============
+    Maximal Width
+    =============== */
+
+    .line-left {
+        width: 39%;
+        margin-left: 30px;
+    }
+
+    .line-right {
+        width: 39%;
+        margin-right: 30px;
+    }
+
+    #nav-scroller {
+        display: block;
+        height: 80px;
+        background-color: #c0392b;
+        position: absolute;
+        z-index: 50;
+        width: 1026px;
+        text-align: center;
+        line-height: 10px;
+    }
+
+    #first-nav {
+        float: none;
+        width: 100%;
+    }
+
+    #first-nav a {
+        float: none;
+        display: inline-block;
+        background-color: #c0392b;
+        position: relative;
+        width: 15%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: white;
+    }
+
+    #scroller-title {
+        float: none;
+    }
+
+    #first-nav:first-child a:hover {
+        text-decoration: none;
+    }
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+
+    }
+
+    .header-container {
+        width: 1100px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .fixed-header {
+        position: fixed;
+        width: 100%;
+        z-index: 30;
+    }
+
+    .hello {
+        font-size: 200px;
+    }
+
+}
+
+/* ==================================================================
+   Helper classes
+   ================================================================== */
+
+   .ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==================================================================
+   Print styles
+   ================================================================== */
+
+   @media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+     .ir a:after,
+     a[href^="javascript:"]:after,
+     a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #top-link {
+        display: none;
+    }
+
+}
