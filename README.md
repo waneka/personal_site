@@ -1,2 +1,2 @@
-* Tyler's Personal Web Page
+* My Personal Website
 
