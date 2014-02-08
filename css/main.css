@@ -397,6 +397,10 @@ font-family: 15px/26px 'Open Sans', sans-serif;
         margin: 5px 10px;
     }
 
+    #middle {
+        width: 600px;
+    }
+
     #top-link {
         font-size: 1.25em;
         margin-bottom: 10px;
